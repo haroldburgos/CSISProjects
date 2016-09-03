@@ -1,9 +1,13 @@
 Body{
-  background-color: rgb(255,255,255);
-   color: #000099;
-   font-family: "Arial", sans-serif;
+  background-color: rgb(255,165,0);
+   color: #49AC15;
+  font-family: "Times New Roman", Serif;
 }
 h1{
-  font-family: "Times New Roman", Serif;
-  color: rgb(255,0,0);
+  font-family: "Arial", sans-serif;
+  background-color: rgb(255,255,255);
+  color: rgb(13,240,51);
+}
+a:link { 
+    background-color: rgb(204,204,204);
 }
