@@ -1,9 +1,7 @@
 Body{
   background-color: rgb(255,255,255);
-   color: #000099;
-   font-family: "Arial", sans-serif;
 }
-h1{
-  font-family: "Times New Roman", Serif;
-  color: rgb(255,0,0);
+ul {
+    width: 70%;
+    margin: auto;
 }
