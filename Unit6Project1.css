@@ -1,27 +1,27 @@
-idfloatleft{
+#idfloatleft{
   background-color: rgb(245,245,220);
   float: left;
   margin: 0 0 10px 10px;
   font-family: verdana;
   padding: 20px;
 }
-classheadlinedot{
+.classheadlinedot{
  color: rgb(255,0,0);
  border-bottom: thick dotted #0000FF;
 }
-idabsolutegray{ 
+#idabsolutegray{ 
   padding: 25px 50px;
   border-style: solid;
   background-color: rgb(211,211,211);
   border: 1px solid black;
 
 }
-classrelativegreen{ 
+.classrelativegreen{ 
   position: relative;
   padding: 15px;
   background-color: rgb(147,219,112)
 }
-idfixedgray{ 
+#idfixedgray{ 
  position: fixed;
  background-color: rgb(211,211,211);
  padding: 10px;
