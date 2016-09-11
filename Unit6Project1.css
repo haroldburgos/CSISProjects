@@ -17,8 +17,12 @@ idabsolutegray{
 
 }
 classrelativegreen{ 
-    background-color: rgb(204,204,204);
+    position: relative;
+    padding: 15px;
+    background-color: rgb(147,219,112)
 }
 idfixedgray{ 
-    background-color: rgb(204,204,204);
+   position: relative;
+   background-color: rgb(211,211,211);
+   padding: 10px;
 }
