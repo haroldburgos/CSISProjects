@@ -1,15 +1,20 @@
 idfloatleft{
   background-color: rgb(245,245,220);
-   float: left;
+  float: left;
   margin: 0 0 10px 10px;
-  font-family: "Verdana", Serif;
+  font-family: verdana;
+  padding: 20px;
 }
 classheadlinedot{
-  color: rgb(255,0,0;
+   color: rgb(255,0,0);
    border-bottom: thick dotted #0000FF;
 }
 idabsolutegray{ 
-    background-color: rgb(204,204,204);
+  padding: 25px 50px;
+  border-style: solid;
+  background-color: rgb(211,211,211);
+  border: 1px solid black;
+
 }
 classrelativegreen{ 
     background-color: rgb(204,204,204);
