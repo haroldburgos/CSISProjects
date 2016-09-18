@@ -15,5 +15,6 @@ tr:nth-child(even) {
    background-color: #dddddd;
  }
  video {
-     Align:Center;
+     display: block;
+    margin: 0 auto;
  }
