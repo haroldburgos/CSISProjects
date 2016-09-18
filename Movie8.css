@@ -1,16 +1,16 @@
 
 table {
-    font-family: arial, sans-serif;
+    font-family: Times New Roman, sans-serif;
     border-collapse: collapse;
     width: 100%;
  }
 td, th {
-   border: 1px solid #dddddd;
+   border: 2px solid #949191;
     text-align: left;
     padding: 8px; 
  }
 tr:nth-child(even) {
-   background-color: #dddddd;
+   background-color: #949191;
  }
  video {
      display: block;
