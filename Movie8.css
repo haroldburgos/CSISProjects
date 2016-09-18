@@ -3,43 +3,64 @@
 <html lang="en">
 
 <head>
-	<link rel="stylesheet" type="text/css" href="format1.css">
-	<title>Fast and Furious.html</title>
+	<link rel="stylesheet" type="text/css" href="movie8.css">
+	<title>The Fast and Furious: Tokyo Drift.html</title>
 	
 <meta charset="utf-8">
 
 </head>
 
 <body>
-	<h1 align="center"> The Fast and the Furious</h1>
+<h1 align="center"> The Fast and the Furious: Tokyo Drift</h1>
 	
-		<video width="400" controls>
-		  <source src="The Fast And The Furious - Trailer (HD).mp4" type="video/mp4">
-		  Your browser does not support the video tag.
-		</video>
+<video width="400" controls>
+	  <source src="The Fast And The Furious - Trailer (HD).mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+</video>
 
-		<p> 
-		The Fast and the Furious (also known as Fast & Furious) is an American franchise including a series of action films, which center around illegal street racing and heists, 
-		and various other media portraying the characters and situations from the films. An elite street racer and ex-convict Dominic Toretto and his crew: Jesse , Leon , 
-		Vince and Letty Ortiz ,are under suspicion of stealing expensive electronic equipment by hijacking moving trucks, Brian O'Conner is an undercover police officer
-		who attempts to find out who exactly is stealing the equipment. He works for FBI agent Bilkins and LAPD Sgt. Tanner.
-		</p>
-	<h3>Roles and Actors</h3>
-		<ul>
-			<li><strong>Dominic Toretto</strong> - Vin Diesel</li>
-			<li><strong>Jesse</strong> – Chad Lindberg </li>
-			<li><strong>Leon</strong> – Johnny Strong</li>
-			<li><strong>Vince</strong> – Matt Schulze</li>
-			<li><strong>Letty Ortiz</strong> – Michelle Rodriguez</li>
-			<li><strong>Brian O'Conner </strong> – Paul Walker</li>
-			<li><strong>FBI agent Bilkins</strong> – Thom Barry</li>
-			<li><strong>LAPD Sgt. Tanner</strong> – Ted Levine</li>
-		</ul>
-    <p align="center">
-		For more information on the fast and furious movies please visit <a href="http://www.fastandfurious.com/">Fast and Furious Movies and Trailers</a>.
+<table>
+	<tr>
+	<th>Title of the movie</th>
+	<td>The Fast and the Furious: Tokyo Drift</td>
+	
+	</tr>
+	<tr>
+	<th>Director or producer</th>
+	<td>Justin Lin</td>
+	
+	</tr>
+	<tr>
+	<th>Leading actor</th>
+	<td>Lucas Black</td>
+	
+	</tr>
+	<tr>
+	<th>Leading actress</th>
+	<td>Roland Mendel</td>
+	
+	</tr>
+	<tr>
+	<th>Rating (G, PG, PG-13, R, NC-17, NR)</th>
+	<td>PG-13</td>
+	
+	</tr>
+	<tr>
+	<th>A brief description of the movie</th>
+	<td>An American teenager named Sean Boswell is a loner in school, however he challenges his rival for an illegal street racing, and he totals his car in the end of the race. To avoid time in prison he is sent to Tokyo to live with his father who is in the military. As soon as he arrives he discovers a new, fun but dangerous way of street racing in the underworld of the streets of Tokyo, Japan.</td>
+	
+	</tr>
+	<tr>
+	<th>review of the movie</th>
+	<td><a href="https://www.rottentomatoes.com/m/fast_and_the_furious_tokyo_drift/" target="">Rotten Tomatoes Review</a></td>
+	
+	</tr>
+</table>
+
+<p align="center">
+	For more information on the fast and furious movies please visit <a href="http://www.fastandfurious.com/">Fast and Furious Movies and Trailers</a>.
 	<br>For any questions, comments, and/or concerns on this movie site please feel free to contact Harold Burgos via
 	<a href="mailto:haroldjburgos@gmail.com?
-	Subject=The%20Fast%20And%20the%20Furious%20HTML" target="_top">Email</a>
-	</p>
+	Subject=The%20Fast%20And%20the%20Furious%20Tokyo%20Drift%20HTML" target="_top">Email</a>
+</p>
 	
 </body>
