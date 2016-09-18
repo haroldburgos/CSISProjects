@@ -3,6 +3,7 @@ table {
     font-family: Times New Roman, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    color: white;
  }
 td, th {
    border: 2px solid #000000;
@@ -18,8 +19,13 @@ td, th {
  }
 body {
     background-image: grey; /* For browsers that do not support gradients */
-    background-image: -webkit-linear-gradient(to left, silver, darkblue); /* For Safari 5.1 to 6.0 */
-    background-image: -o-linear-gradient(to left,silver, darkblue); /* For Opera 11.1 to 12.0 */
-    background-image: -moz-linear-gradient(to left,silver, darkblue); /* For Firefox 3.6 to 15 */
-    background-image: linear-gradient(to left, silver, darkblue); /* Standard syntax (must be last) */
+    background-image: -webkit-linear-gradient(to right, silver, darkblue); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(to right,silver, darkblue); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(to right,silver, darkblue); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, silver, darkblue); /* Standard syntax (must be last) */
+    color: white;
+}
+h1 {
+    Color: white;
+}
 }
