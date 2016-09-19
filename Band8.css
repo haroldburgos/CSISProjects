@@ -27,10 +27,10 @@ img
     margin-right: auto }
 }
 body {
-    background-image: grey; /* For browsers that do not support gradients */
-    background-image: -webkit-linear-gradient(left top, #1A6CB8, #CACED2); /* For Safari 5.1 to 6.0 */
-    background-image: -o-linear-gradient(bottom right, #1A6CB8, #CACED2); /* For Opera 11.1 to 12.0 */
-    background-image: -moz-linear-gradient(bottom right, #1A6CB8, #CACED2); /* For Firefox 3.6 to 15 */
-    background-image: linear-gradient(to bottom right,  #1A6CB8, #CACED2); /* Standard syntax (must be last) */
+    background-image: gray; /* For browsers that do not support gradients */
+    background-image: -webkit-linear-gradient(left top, blue, white); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(bottom right,blue, white); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(bottom right, blue, white); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to bottom right,  blue, white); /* Standard syntax (must be last) */
 }
 
