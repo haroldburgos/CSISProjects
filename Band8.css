@@ -1,10 +1,15 @@
 table {
     font-family: Times New Roman, sans-serif;
     border-collapse: collapse;
+    width: 500px;
     color: white;
  
  }
-
+td, th {
+   border: 2px solid #000000;
+    text-align: left;
+    padding: 8px; 
+ }
  audio {
      display: block;
     margin: 0 auto;
