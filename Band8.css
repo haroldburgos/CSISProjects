@@ -1,4 +1,4 @@
-table {
+/*table {
     font-family: Times New Roman, sans-serif;
     border-collapse: collapse;
     width: 500px;
@@ -10,13 +10,11 @@ td, th {
     text-align: left;
     padding: 8px; 
  }
-/*tr:nth-child(even) {
-   background-color: #949191;
- }*/
+
  audio {
      display: block;
     margin: 0 auto;
- }
+ }*/
 body {
     background-image: gray; /* For browsers that do not support gradients */
     background-image: -webkit-linear-gradient(left top, yellow, red); /* For Safari 5.1 to 6.0 */
@@ -25,7 +23,7 @@ body {
     background-image: linear-gradient(to bottom right,  yellow, red); /* Standard syntax (must be last) */
     color: white;
 }
-h1 {
+/*h1 {
     color: white;
 }
 img
@@ -34,3 +32,4 @@ img
     margin-left: auto;
     margin-right: auto }
 }
+*/
