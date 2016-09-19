@@ -5,11 +5,6 @@ table {
     color: white;
  
  }
-td, th {
-   border: 2px solid #000000;
-    text-align: left;
-    padding: 8px; 
- }
 
  audio {
      display: block;
