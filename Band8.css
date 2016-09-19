@@ -10,6 +10,11 @@ td, th {
     text-align: left;
     padding: 8px; 
  }
+ audio{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
  h1 {
     Color: white;
