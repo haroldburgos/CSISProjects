@@ -13,12 +13,12 @@ td, th {
 /*tr:nth-child(even) {
    background-color: #949191;
  }*/
- video {
+ audio {
      display: block;
     margin: 0 auto;
  }
 body {
-    background-image: grey; /* For browsers that do not support gradients */
+    background-image: gray; /* For browsers that do not support gradients */
     background-image: -webkit-linear-gradient(left top, yellow, red); /* For Safari 5.1 to 6.0 */
     background-image: -o-linear-gradient(bottom right, yellow, red); /* For Opera 11.1 to 12.0 */
     background-image: -moz-linear-gradient(bottom right, yellow, red); /* For Firefox 3.6 to 15 */
