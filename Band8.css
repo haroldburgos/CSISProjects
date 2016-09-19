@@ -19,10 +19,10 @@ td, th {
  }
 body {
     background-image: grey; /* For browsers that do not support gradients */
-    background-image: -webkit-linear-gradient(left top, gray, darkblue); /* For Safari 5.1 to 6.0 */
-    background-image: -o-linear-gradient(bottom right, gray, darkblue); /* For Opera 11.1 to 12.0 */
-    background-image: -moz-linear-gradient(bottom right, gray, darkblue); /* For Firefox 3.6 to 15 */
-    background-image: linear-gradient(to bottom right,  gray, darkblue); /* Standard syntax (must be last) */
+    background-image: -webkit-linear-gradient(left top, #1A6CB8, silver); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(bottom right, #1A6CB8, silver); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(bottom right, #1A6CB8, silver); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to bottom right,  #1A6CB8, silver); /* Standard syntax (must be last) */
     color: white;
 }
 h1 {
