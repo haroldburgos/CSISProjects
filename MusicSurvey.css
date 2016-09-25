@@ -26,18 +26,10 @@ body {
     color: white;
 }
 form{ 
-    padding: 10px;
-    display: block; 
-    background: #FAFAFA; 
     margin: 0 auto;}
     }
-/*fieldset { 
-    width: 500px;
+fieldset { 
     Border: 2px;
-    }*/
-.field{
-    Border: 2px;
-    display: inline-block;
     }
 legend {
     font-family: Times New Roman, sans-serif;
