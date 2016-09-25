@@ -26,10 +26,10 @@ body {
     color: white;
 }
 form{ 
-    background-color: #eaeaea;
     padding: 10px;
-    display: inline-block;
-    text-align: center;
+    display: block; 
+    background: #FAFAFA; 
+    margin: 0 auto;}
     }
 fieldset { 
     width: 500px;
