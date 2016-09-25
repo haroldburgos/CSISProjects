@@ -25,5 +25,17 @@ body {
     /*background-image: linear-gradient(to bottom right,  #1A6CB8, silver); /* Standard syntax (must be last) */
     color: white;
 }
+form{ background-color: #eaeaea;
+       padding: 10px;
+    }
+fieldset { 
+    width: 320px;
+    Border: 2px;
+    }
+legend {
+    font-family: Times New Roman, sans-serif;
+    font-weight: bold;
+    }
+            
 
 
