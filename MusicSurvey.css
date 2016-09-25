@@ -31,9 +31,13 @@ form{
     background: #FAFAFA; 
     margin: 0 auto;}
     }
-fieldset { 
+/*fieldset { 
     width: 500px;
     Border: 2px;
+    }*/
+.field{
+    Border: 2px;
+    display: inline-block;
     }
 legend {
     font-family: Times New Roman, sans-serif;
