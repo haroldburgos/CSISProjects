@@ -5,8 +5,18 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="Chapter14.css">
 	<title> chapter14.html</title>
-	
-	
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["Email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+		
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -15,7 +25,7 @@
 <h1 align="center">Chapter 14</h1>
 
 
-<form action="http://www.markmurtha.com/csis128/readform.asp">
+<form name="myForm" action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return validateForm();" method="post">
   Name:<br>
   <input type="text" name="Name" id="Name"> <br>
   Email:<br>
