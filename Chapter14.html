@@ -6,17 +6,22 @@
 	<link rel="stylesheet" type="text/css" href="Chapter14.css">
 	<title> chapter14.html</title>
 <script>
-function validateForm() {
-    var x = document.forms["myForm"]["Email"].value;
-    var atpos = x.indexOf("@");
-    var dotpos = x.lastIndexOf(".");
-    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-        alert("Not a valid e-mail address");
-        return false;
-    }
-}
-</script>
-		
+function ValidateEmail(inputText)  
+	{  
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+	if(inputText.value.match(mailformat))  
+	{  
+		document.form1.Email1.focus();  
+		return true;  
+	}  
+	else  
+	{  
+		alert("You have entered an invalid email address!");  
+		document.form1.Email1.focus();  
+		return false;  
+	}  
+}  
+	</script>		
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -25,13 +30,13 @@ function validateForm() {
 <h1 align="center">Chapter 14</h1>
 
 
-<form name="myForm" action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return validateForm();" method="post">
+<form name="form1" action="http://www.markmurtha.com/csis128/readform.asp">
   Name:<br>
   <input type="text" name="Name" id="Name"> <br>
   Email:<br>
-  <input type="text"  name="Email" id="Email"><br>
+  <input type="text"  name="Email" id="Email1"><br>
 <br>
-  <input type="submit" value="Sign up now">
+  <input type="submit" name="submit" value="Sign up Now" onclick="ValidateEmail(document.form1.Email1)"/>
   <input type="reset" value="Reset">
 </form>
  
