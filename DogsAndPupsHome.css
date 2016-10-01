@@ -35,7 +35,13 @@ img
 }
 
 /*Header Code*/
+.div {
+   display: table;
+    margin: 0 auto;  
+}
 #header ul {
+     display: table;
+    margin: 0 auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
