@@ -70,3 +70,85 @@ form {
     width: 400px;
     margin: 0 auto;
 }
+
+header{
+	width:100%;
+	margin: 0;
+	background:#2b5b84;
+	height:60px;
+	position:fixed;
+	line-height:60px;
+}
+.hamburger{
+	background:none;
+	position:absolute;
+	top:0;
+	right:0;
+	line-height:45px;
+	padding:5px 15px 0px 15px;
+	color:#ffd343;
+	border:0;
+	font-size:1.4em;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	z-index:100000;
+}
+.cross{
+	background:none;
+	position:absolute;
+	top:0px;
+	right:0;
+	padding:13px 15px 0px 15px;
+	color:#fff;
+	border:0;
+	font-size:3em;
+	line-height:65px;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	z-index:100000;
+}
+.menu{
+	z-index:10000;
+	font-weight:bold;
+	font-size:0.8em;
+	width:100%;
+	background:#2b5b84;
+	position:absolute;
+	text-align:center;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+.menu li {
+	display: block;
+	padding:6px 0 6px 0;
+	border-bottom:#1d1f20 1px solid;
+}
+.menu li:hover{
+	display: block;
+	background:#181818;
+	padding:6px 0 6px 0;
+	border-bottom:#1d1f20 1px solid;
+}
+.menu ul li a { 
+	text-decoration:none;
+	margin: 0px;
+	color:#fff;
+}
+.menu ul li a:hover {  
+	color: #fff; 
+	text-decoration:none;
+}
+.menu a{
+	text-decoration:none; 
+	color:white;
+}
+.menu a:hover{
+	text-decoration:none; 
+	color:white;
+}
