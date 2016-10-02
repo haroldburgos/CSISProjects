@@ -40,8 +40,7 @@ img
      width: 900px; 
 }
 #header ul {
-     display: table;
-    margin: 0 auto;
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
