@@ -46,7 +46,7 @@ img
 }
 
 #header li {
-    display: inline-block;
+     display:inline-block;
 }
 
 #header li a {
@@ -54,7 +54,6 @@ img
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 #header li a:hover {
