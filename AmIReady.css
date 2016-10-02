@@ -1,19 +1,3 @@
-table {
-    font-family: Times New Roman, sans-serif;
-    border-collapse: collapse;
-    width: 500px;
-    color: white;
- 
- }
-td, th {
-   border: 2px solid #000000;
-    text-align: left;
-    padding: 8px; 
- }
- audio {
-     display: block;
-    margin: 0 auto;
- }
 body {
     background-image: gray; /* For browsers that do not support gradients */
     background-image: -webkit-linear-gradient(left top, #1A6CB8, silver); /* For Safari 5.1 to 6.0 */
@@ -40,23 +24,6 @@ img
     color: white;
  
  }
-td, th {
-   border: 2px solid #000000;
-    text-align: left;
-    padding: 8px; 
- }
- audio {
-     display: block;
-    margin: 0 auto;
- }
-body {
-    background-image: gray; /* For browsers that do not support gradients */
-    background-image: -webkit-linear-gradient(left top, #1A6CB8, silver); /* For Safari 5.1 to 6.0 */
-     /*background-image: -o-linear-gradient(bottom right, #1A6CB8, silver); /* For Opera 11.1 to 12.0 */
-     /*background-image: -moz-linear-gradient(bottom right, #1A6CB8, silver); /* For Firefox 3.6 to 15 */
-    /*background-image: linear-gradient(to bottom right,  #1A6CB8, silver); /* Standard syntax (must be last) */
-    color: white;
-}
 h1 {
     color: white;
 }
@@ -66,7 +33,35 @@ img
     margin-left: auto;
     margin-right: auto }
 }
-form {
-    width: 400px;
-    margin: 0 auto;
+
+/*Header Code*/
+.div {
+   display: table;
+    margin: 0 auto;  
 }
+#header ul {
+     display: table;
+    margin: 0 auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e1e1ee;
+}
+
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header li a:hover {
+    background-color: #111;
+}
+/* end nav */
