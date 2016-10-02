@@ -49,7 +49,7 @@ img
 }
 
 #header li {
-    float: left;
+    display: inline-block;
 }
 
 #header li a {
