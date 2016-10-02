@@ -36,8 +36,9 @@ img
 
 /*Header Code*/
 .NavButtons {
+    position: absolute;
    margin: 0 auto;
-     width: 0 auto; 
+     width: 500 px; 
 }
 #header ul {
      display: table;
