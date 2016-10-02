@@ -35,6 +35,9 @@ img
 }
 
 /*Header Code*/
+.NavButtons{
+    text-align: center;   
+}
 
 #header ul {
     
@@ -52,6 +55,7 @@ img
     color: white;
     text-align: center;
     padding: 14px 16px;
+    text-decoration:none
 }
 
 #header li a:hover {
