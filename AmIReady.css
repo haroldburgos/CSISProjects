@@ -6,9 +6,10 @@ body {
     /*background-image: linear-gradient(to bottom right,  #1A6CB8, silver); /* Standard syntax (must be last) */
     color: white;
 }
-h1 {
+h1,h2,h3 {
     color: white;
 }
+
 img
     {
     display: block;
@@ -32,9 +33,6 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto; }
-}
-.questions > li {
-    font-weight: bold;
 }
 
 /*Header Code*/
