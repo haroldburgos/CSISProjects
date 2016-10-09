@@ -5,9 +5,27 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="ContactUs.css">
 	<title>Dogs And Puppies</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<script>
+function ValidateEmail(inputText)  
+	{  
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+	if(inputText.value.match(mailformat))  
+	{  
+		document.form1.Email1.focus();  
+		return true;  
+	}  
+	else  
+	{  
+		alert("You have entered an invalid email address!");  
+		document.form1.Email1.focus();  
+		return false;  
+	}  
+}  
+</script>		
 	
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
@@ -25,7 +43,17 @@
 	
 <h1 align="center">Contact Us</h1>
 
-
+<form name="form1" action="http://www.markmurtha.com/csis128/readform.asp">
+  Name:<br>
+  <input type="text" name="Name" id="Name"> <br>
+  Email:<br>
+  <input type="text"  name="Email" id="Email1"><br>
+  Comments:<br>
+  <input type="text"  name="Comments" id="Cpmments"><br>
+<br>
+  <input type="submit" value="Send Now" onclick="ValidateEmail(document.form1.Email1)"/>
+  <input type="reset" value="Reset">
+</form>
 
 <img src="Tips&Tricks.jpg" alt="Tips&Tricks">	
 <br>
