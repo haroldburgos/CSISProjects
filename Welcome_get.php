@@ -1,7 +1,7 @@
 <html>
 <body>
 
-Hi <?php echo $_GET["name"]; ?><br>
+Hi <?php echo $_GET["Name"]; ?><br>
 Thank you for your Message.<br>
 Also thank you for making our dog community a better community.<br>
 
